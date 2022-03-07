@@ -70,7 +70,14 @@ div {
     height:100%;
     align-items: center;
     justify-content: center;
-    font-size: 20em;
-    user-select: none;
+    font-size: 10em;
+    user-select: none;    
+    @media (min-width:500px) {
+        font-size: 20em;
+    }
+    @media (min-width:500px) {
+        font-size: 25em;
+    }
 }
+
 </style>
